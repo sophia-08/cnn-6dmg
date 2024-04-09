@@ -162,7 +162,7 @@ def select_data_by_name(name_key):
         # plt.colorbar()
         # plt.show()
 
-        lowerLabel = label[6].lower()
+        lowerLabel = label[6]
         # np.savetxt("./gen/"+lowerLabel+"_"+tester+"_"+str(trial)+".dat", grid, fmt='%d')
         np.savetxt("./gen/"+lowerLabel+"_"+str(index)+".dat", grid, fmt='%d', delimiter=',')
         index += 1
